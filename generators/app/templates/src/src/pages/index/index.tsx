@@ -82,8 +82,8 @@ class Index extends Component {
 		return (
 			<View className={`${PREFIX}`}>
 				<View className='user'>
-					<Image src='' className='user-avator' />
-					<View className='user-name'>nickname</View>
+				<View className='user-name'>token:</View>
+				<View>{this.props.user.token}</View>
 				</View>
 			</View>
 		)
