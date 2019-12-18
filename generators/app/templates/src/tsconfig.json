@@ -25,7 +25,11 @@
 			"@/interfaces": ["src/interfaces"],
 			"@/utils": ["src/utils"],
 			"@/constants": ["src/constants"],
-			"@/api": ["src/api"]
+			"@/api": ["src/api"],
+			"@/decorators": ["src/decorators"],
+			"@hooks": ["src/hooks"],
+			"@/lib": ["src/lib"],
+			"@/store": ["src/store"]
 		}
 	},
 	"exclude": ["node_modules", "dist"],

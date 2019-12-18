@@ -34,7 +34,7 @@ const config = {
 	},
 	defineConstants: {
 		API_GATEWAY: {
-			development: 'https://www.test.com',
+			development: 'http://www.test.com',
 			production: '',
 		},
 	},
@@ -49,6 +49,9 @@ const config = {
 		'@/constants': path.resolve(__dirname, '..', 'src/constants'),
 		'@/decorators': path.resolve(__dirname, '..', 'src/decorators'),
 		'@/interfaces': path.resolve(__dirname, '..', 'src/interfaces'),
+		'@/hooks': path.resolve(__dirname, '..', 'src/hooks'),
+		'@/store': path.resolve(__dirname, '..', 'src/store'),
+		'@/lib': path.resolve(__dirname, '..', 'src/lib'),
 		'@/package': path.resolve(__dirname, '..', 'package.json'),
 		'@/project': path.resolve(__dirname, '..', 'project.config.json'),
 	},
