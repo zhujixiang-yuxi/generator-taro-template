@@ -1,0 +1,1 @@
+export { getUserInfo } from './user'

@@ -1,0 +1,26 @@
+{
+  "name": "generator-taro-template",
+  "version": "0.2.23",
+  "description": "一个快速生成有代码风格检测和git提交规范的taro脚手架",
+  "files": [
+    "generators/app",
+    "generators/router"
+  ],
+  "keywords": [
+    "yeoman-generator",
+    "taro",
+    "yo"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "camelcase": "^5.3.1",
+    "chalk": "^3.0.0",
+    "decamelize": "^3.2.0",
+    "mkdirp": "^0.5.1",
+    "shelljs": "^0.8.3",
+    "yeoman-generator": "^4.3.0",
+    "yosay": "^2.0.2"
+  },
+  "devDependencies": {}
+}
