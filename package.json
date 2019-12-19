@@ -1,6 +1,6 @@
 {
   "name": "generator-taro-template",
-  "version": "0.2.26",
+  "version": "0.2.29",
   "description": "一个快速生成有代码风格检测和git提交规范的taro脚手架",
   "files": [
     "generators/app",

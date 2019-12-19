@@ -11,7 +11,7 @@ class Deco extends Component {
 	state = {}
 
 	componentWillMount() {
-		console.log('这个生命周期函数会延迟2秒执行\n你也可以通过这种方式在页面初次请求之前获取token')
+		console.log('生命周期会延时2s')
 	}
 
 	componentDidMount() {}
