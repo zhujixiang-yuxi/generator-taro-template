@@ -1,3 +1,7 @@
+# issue
+
+[Click here to give me your opinion.](https://github.com/zhujixiang-yuxi/generator-taro-template)
+
 # Installation
 
 ```
@@ -58,4 +62,6 @@ const httpConfig = {
 }
 const http = new Http(httpConfig)
 ```
+
+# Thank you for using it
 
